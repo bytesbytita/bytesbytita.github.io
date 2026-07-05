@@ -174,7 +174,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Commerce.RPC","model_namespace":"_W.Comm
       </div>
       <div class="site-logo"><span class="wsite-logo">
 
-	<a href="index.html">
+	<a href="/">
 		<img src="uploads/1/3/3/3/133351565/published/logoasset-52-3xeee83ce.png?1770497356" alt="Bytes by Tita" />
 	</a>
 
@@ -382,7 +382,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Commerce.RPC","model_namespace":"_W.Comm
 </style>
 
 <!-- Leaflet CSS -->
-<link rel="stylesheet" href="../unpkg.com/leaflet%401.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
 <!-- Product Modal for Cart Items -->
 <div id="cartProductModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 10000; align-items: center; justify-content: center;">
@@ -486,7 +486,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.Commerce.RPC","model_namespace":"_W.Comm
 </div>
 
 <!-- Leaflet JS -->
-<script src="../unpkg.com/leaflet%401.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
 // ===== MAP SETUP =====
@@ -503,7 +503,7 @@ var map = L.map('delivery-map', {
     zoomControl: true
 });
 
-L.tileLayer('../%7bs%7d.tile.openstreetmap.org/%7bz%7d/%7bx%7d/%7by%7d.png', {
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors',
     maxZoom: 19
 }).addTo(map);
